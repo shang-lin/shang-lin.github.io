@@ -25,6 +25,9 @@
         margin-left: auto;
         margin-right: auto;
       }
+      table#main th {
+        width: 50px;
+      }
   table#main tr td.item {
   text-align: left;
   //margin: 10px 10px 10px 10px;
@@ -32,23 +35,62 @@
   padding: 0;
   }
   table#main tr td.description {
-    visibility: hidden;
+    //visibility: hidden;
     text-align: left;
     //padding: 10px;
     width: 60%;
   }
+
+  .projects-wrapper {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+  }
+  .heading {
+    //display: table-row;
+    width:55%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .project {
+    //text-align: left;
+    display:table-row;
+
+    
+  }
+  .projectname {
+    display: table-cell;
+    width: 40%;
+    margin: 0;
+    //margin-right: 20px;
+  }
+  .description {
+    //width: 60%;
+    display: table-cell;
+    //margin-left: 20px;
+  }
     </style>
   </head>
     <body>
-      <div id="content">
-        <h3>Shang-Lin Chen</h3>
-      <table id="main">
-        <tr>
-          <td class="item"><a href="http://github.com/shang-lin/gldemos/">gldemos</a></td>
-          <td class="description">In 2003, I wrote these C++ OpenGL demo programs for CS 11, the Computer Language Shop class at Caltech. My project was to learn about animation and texture mapping.</td>
-        </tr>
-      </table>
+      
+        <div id="content">
+     
+        <div class="heading"><h2>Shang-Lin Chen</h2></div>
+      <!-- <div class="projects-wrapper">
+      
+      <div class="project"><div class="projectname">gldemos</div>
+      <div class="description">In 2003, I wrote these C++ OpenGL demo programs for CS 11, the Computer Language Shop class at Caltech, to learn about animation and texture mapping.</div>
+    </div> -->
+    <table id="main">
+      <tr>
+        <td>gldemos</td>
+        <td>This is a collection of OpenGL demos written in 2003 as my project for the project track of CS 11, Computer Language Shop, at Caltech.</td>
+      </tr>
+    </table>
+
       <a href="http://www.linkedin.com/in/shanglinchen" style="text-decoration:none;"><span style="font: 80% Arial,sans-serif; color:#0783B6;"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" width="20" height="15" alt="LinkedIn" style="vertical-align:middle;" border="0"></span></a>
-  </div>
+      </div>
 </body>
 </html>
