@@ -10,5 +10,9 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
+# Automatically put blog posts in the blog path.
+permalink: /blog/:categories/:year/:month/:day/:title
+
 # Build settings
 markdown: kramdown
+
