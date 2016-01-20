@@ -9,8 +9,10 @@
 	}
 	
 div#logo {
-    font-family: 'Oregano', Arial Black, sans-serif;
+    font-family: 'Oregano', cursive, sans-serif;
     font-size: 46px;
+    font-weight: 400;
+    font-style: italic;
     color: #cc0000;
     border: 0;
     margin-bottom: 10px;
@@ -21,6 +23,7 @@ div#logo {
 		margin-right: auto;
 		width:35em;
 		text-align: left;
+    font-family: sans-serif;
 	}
 	
 	div.content a:link {
@@ -43,10 +46,11 @@ div#logo {
 		background: #cccccc;
 		font-family: 'Oregano', Arial Black, sans-serif; 
 		font-size: 20px;
-        font-style: italic;
+    font-weight: 400;
+    font-style: italic;
 		list-style-type: none;
 		margin-top: 0;
-        margin-bottom: 20px;
+    margin-bottom: 20px;
 		padding: 0;
 		overflow: hidden;
 		}
