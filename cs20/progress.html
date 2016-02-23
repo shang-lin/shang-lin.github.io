@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<!-- saved from url=(0097)https://web.archive.org/web/20031225000650/http://www.cs.caltech.edu/~shang/project/progress.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+   <title>Progress Report</title>
+<!-- saved from url=(0064)/web/20031225000650/http://www.cs.caltech.edu/~cs20/C/homework/project/progress.html -->
+<style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head>
+<body text="#000000" bgcolor="#FFFFFF"><div id="wm-ipp" lang="en" style="display: block;">
+
+
+<center><b><font size="+3">CS20c Progress Report</font></b>
+<br><b><font size="+3">by <i>Shang-Lin Chen</i></font></b></center>
+
+<p>
+</p><hr noshade="">
+<h2>
+Title: <i>Sorting and Searching Strings</i></h2>
+
+<h2>
+Introduction</h2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Efficiently sorting and searching
+data is one of the most fundamental problems in computer science, both
+in industrial and in academic research. Many kinds of structures can store,
+search, and retrieve data, but search trees are the most important and
+efficient means to date. The paper "Fast Algorithms for Sorting and Searching
+Strings" by Jon L. Bentley and Robert Sedgewick compares the time complexities
+of different types of search trees.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The most common search tree is
+the binary tree, characterized by nodes that each point to a maximum of
+two children nodes. A binary search tree's efficiency depends on it height,
+h. Constructing an n-node binary search tree has is O(n*h),
+and searching an
+object is O(h). The height of a carefully constructed binary search tree
+is no more than log n, which leads to a time complexity of O(log n) for
+a search. A digital search trie can improve the time complexity of constructing
+and searching n nodes to O(n). However, a digital search trie requires
+substantially more memory.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bentley and Sedgewick point out
+that a ternary search tree combines the compact size of a binary search
+tree with the speed of a digital search trie. Before Bentley and
+Sedgewick published their paper, ternary search
+trees had only been used as a theoretical
+device to prove properties of other topics. Few realized that the
+characteristics
+of a ternary search tree actually make it ideal for practical
+use in
+sorting and searching data.
+<br>&nbsp;
+<h2>
+Current Status</h2>
+
+<ul>
+<li>
+I have read the paper and started to study the algorithms and theorems.
+I have also implemented in LISP the code for binary search trees and the
+algorithms to sort strings in a binary search tree.</li>
+
+<li>
+The paper "Fast Algorithms for Sorting and Searching Strings" discusses
+methods of data storage and retrieval, a fundamental problem in computer
+science. In the paper, binary trees, digital tries, and ternary trees are
+compared for efficiency.</li>
+
+<li>
+Figuring out how to obtain the coefficients in the time complexities in
+the theorems has presented difficulties. Since some of the theorems come
+from other papers, I plan to read those papers for more information about
+their proofs.</li>
+</ul>
+
+<h2>
+Major Milestones</h2>
+
+<ul>1.Get approval of the paper "Fast Algorithms for Sorting and
+<br>&nbsp;&nbsp; Searching&nbsp; Strings." (completed)
+<br>2.Read the paper thoroughly. (completed)
+<br>3.Understand and prove the theorems presented in the paper.
+<br>4.Understand the algorithms provided in the paper.
+<br>5.Derive the computational complexities for those algorithms.
+<br>6.Implement binary tree and ternary tree algorithms in LISP. Also
+<br>&nbsp;&nbsp; consider how to implement them in C or Java. (completed
+the binary
+<br>&nbsp;&nbsp; tree portion in LISP)
+<br>7.Summarize my findings in a final report and presentation.
+<br>8.Present my report to the class.
+<br>&nbsp;</ul>
+
+<h2>
+References</h2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>[Bentley and
+Saxe79]: </b>"Algorithms on Vector Sets",<b> </b><i>SIGACT</i>
+<br><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; News, </i>11(9):36-39,
+Fall 1979.
+<ul><b>[Bentley and Sedgewick97]:&nbsp; </b>Jon L. Bentley and Robert Sedgewick,
+"Fast Algorithms for Sorting and Searching Strings", <i>Proceedings of
+the 8th Annual ACM-SIAM Symposium on Discrete Algorithms, </i>January 1997.
+(text available&nbsp; in <a href="https://web.archive.org/web/20031225000650/http://www.cs.princeton.edu/~rs/strings/paper.ps">.ps
+format</a>&nbsp; or&nbsp; <a href="https://web.archive.org/web/20031225000650/http://www.cs.princeton.edu/~rs/strings/paper.pdf">.pdf
+format</a> )
+<p><b>[Hoare67]: </b>C.A.R. Hoare, "Quicksort," <i>Computer Journal</i>,
+5(1):10-15, April 1962.</p></ul>
+
+<hr noshade="">
+<p>&nbsp;<a href="https://web.archive.org/web/20031225000650/http://www.cs.caltech.edu/~shang">Back to main page</a>
+
+
+
+
+
+
+
+<!--
+     FILE ARCHIVED ON 0:06:50 Dec 25, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:15:50 Feb 15, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+</p></body></html>
