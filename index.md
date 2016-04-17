@@ -4,10 +4,10 @@ layout: default
 title: Shang-Lin Chen - Official website
 ---
 
-**W**elcome to my official website! My name is Shang-Lin Chen (first name Shang-Lin), and you have reached the right place to learn more about me.
+**W**elcome to my home on the web! 
 
-I originally hail from the Midwestern United States. After living in three time zones, I graduated with a degree in computer science from [Caltech](http://caltech.edu). Officially, my degree is in Engineering and Applied Sciences because that is what Caltech offered at the time as an undergraduate option for computer science. I now work with Linux servers and programming for money. 
+My name is Shang-Lin Chen, and I am a programmer / Linux admin / dabbler in many subjects. I received my BS degree in computer science from [Caltech](http://caltech.edu). On paper, my degree is in Engineering and Applied Sciences because Caltech did not offer a computer science major for undergraduates until a year after I graduated. I now enjoy taking [MOOCs](https://en.wikipedia.org/wiki/Massive_open_online_course) [in](https://www.coursera.org) [various](https://www.udacity.com) [subjects](https://edx.org).
 
 More information about my past and present technical projects is available on [my projects page]({{site.baseurl}}/projects/).
 
-I also spend my time doing [tai chi chuan](http://taijichuan.org) and [dancing]({{site.baseurl}}/dance/). 
+I also practice [tai chi chuan](http://taijitips.com) and [dance]({{site.baseurl}}/dance/). For free tai chi classes in Pasadena, CA, try the [Caltech Tai Chi Club](http://www.its.caltech.edu/~dotaichi/).
