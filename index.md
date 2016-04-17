@@ -10,4 +10,4 @@ I originally hail from the Midwestern United States. After living in three time 
 
 More information about my past and present technical projects is available on [my projects page]({{site.baseurl}}/projects/).
 
-I also spend my time doing [tai chi chuan](http://taijichuan.org) and [dancing]({{site.baseurl}}/dancing/). 
+I also spend my time doing [tai chi chuan](http://taijichuan.org) and [dancing]({{site.baseurl}}/dance/). 
