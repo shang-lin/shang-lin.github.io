@@ -7,3 +7,4 @@ type: page
 **OpenGL experiments** --- I created a series of OpenGL demos of animation and texture mapping as a project for [CS 11](http://courses.cms.caltech.edu/cs11/). 
 
 [**Sorting and Searching Strings (CS20c)**](cs20/) &mdash; This was my project for [CS20c](https://web.archive.org/web/20010721115256/http://www.cs.caltech.edu/~cs20/) at Caltech. I compared the time complexities of 
+implementations of binary and ternary trrees in Lisp. 
