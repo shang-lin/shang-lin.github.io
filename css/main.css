@@ -87,5 +87,9 @@ div#logo {
 		margin-bottom: 10px;
 	}
 
+  .post-meta {
+    font-style: italic;
+    font-size: 10pt;
+  }
 
   </style>
