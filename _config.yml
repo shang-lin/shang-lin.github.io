@@ -21,3 +21,12 @@ gems:
 
 whitelist:
  - jekyll-redirect-from
+
+defaults:
+ -
+  scope: 
+   path: "_posts"
+   type: "posts"
+  values:
+    layout: "post"
+    logo: "Code Words"
