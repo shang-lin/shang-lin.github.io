@@ -1,5 +1,5 @@
 <ul id="navbar">
-    {% for item in site.data.nav %}
-    <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
-    {% endfor %}
+{% for item in site.data.nav %}
+  <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+{% endfor %}
 </ul>
