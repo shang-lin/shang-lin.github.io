@@ -1,7 +1,3 @@
----
-layout: post
----
-
 Interpreted languages like Python and Perl have become ubiquitous. It is easier and faster to code in Python than, say, C, but skipping the compile step also means it\'s harder to catch syntax or type errors before you run your code. 
 
 Luckily, there are ways to check your interpreted code for errors before running. One way is to use an Integrated Development Environment (IDE), such as PyCharm for Python, or a vim plug-in like Syntastic. PyCharm detects errors as you code. Syntastic checks syntax for a variety of languages when you save your file.
@@ -36,3 +32,4 @@ to check your syntax without running the program.
 Bash is not a full-featured programming language like Python or Perl, but it is interpreted. You can check the syntax of your bash scripts by calling them with the ``-n`` flag:
 
     bash -n mybashscript.bash
+
