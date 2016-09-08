@@ -2,6 +2,7 @@
 type: page
 layout: default
 title: Shang-Lin Chen - Official website
+logo: Shang-Lin Chen
 ---
 
 **W**elcome to my home on the web! 
