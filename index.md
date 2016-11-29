@@ -5,7 +5,7 @@ title: Shang-Lin Chen - Official website
 logo: Shang-Lin Chen
 ---
 
-**W**elcome to my home on the web! My name is Shang-Lin, and I'm an enthusiast of technology, code, words and languages, tai chi chuan, dance, etc. From here you can:
+**W**elcome to my home on the web! My name is Shang-Lin, and I'm an enthusiast of technology, software, programming languages, natural languages, tai chi chuan, dance, etc. From here you can:
 
 * Visit [Code Words]({{site.baseurl}}/blog/), my mostly technical blog.
 * Read more [about me]({{site.baseurl}}/about).
