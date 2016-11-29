@@ -10,6 +10,7 @@ logo: Shang-Lin Chen
 * Visit [Code Words]({{site.baseurl}}/blog/), my mostly technical blog.
 * Read more [about me]({{site.baseurl}}/about).
 * Check out my [projects]({{site.baseurl}}/projects/).
+* See my list of [dance resources and LA-area dances]({{site.baseurl}}/dance/).
 
 <h3>Latest Blog Posts</h3>
 <ul class="post-list">
