@@ -1,4 +1,4 @@
-HTTPS is a protocol that encrypts web traffic. You've probably noticed the lock icon and the "https://" prefix on bank websites and other secure logins, but HTTPS is becoming increasingly popular for general-purpose websites. In 2017, Google will begin marking non-HTTPS sites as insecure, starting with sites that collect login information or credit cards. Eventually, this initiative will expand to all websites. This means that your personal or business website could take a hit in its search rankings if you don't implement HTTPS. 
+When you visit a web page, a malicious third party sniffing on your network could read everything you send. For this reason, websites that collect payment or identification information are supposed to use HTTPS, a protocol that encrypts web traffic. You might have noticed the lock icon and the "https://" prefix of URL's that use HTTPS. HTTPS is now recommended even for websites that do not ask for your credit card. This year, Google will begin marking non-HTTPS sites as insecure, starting with sites that collect login or credit card information, but eventually expanding to all websites. What does this mean for you? If you run a website and don't This means that your personal or business website could take a hit in its search rankings if you don't implement HTTPS. 
 
 HTTPS uses an encryption protocol called TLS (Transport Layer Security). Past versions of TLS were called SSL (Secure Sockets Layer). To serve an HTTPS website, you will need to install a TLS/SSL certificate from a certificate authority (CA).
 
@@ -19,4 +19,4 @@ When Certbot asks for domain names, enter any domain names associated with your 
 
 Certbot will create an ssl.conf file in /etc/httpd/conf.d with virtualhost information. Once certbot completes, restart Apache, and your new HTTPS website should be all set.
 
-
+Now I just need to get this website on HTTPS!
