@@ -37,7 +37,8 @@ div.content a:visited {
 }
 	
 div.content a:hover {
-		color: #0066cc;
+		//color: #0066cc;
+    color: #cc0000;
 		text-decoration: underline;
 }
 	
@@ -105,4 +106,5 @@ a.post-link {
 
 a.post-link:hover {
     background-color: yellow;
+		color: #cc0000;
 }
