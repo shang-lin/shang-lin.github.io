@@ -5,12 +5,12 @@ title: Shang-Lin Chen - Official website
 logo: Shang-Lin Chen - About
 ---
 
-**About Me**
+**Who am I?**
 
-Who am I?
+My (first) name is Shang-Lin. I consider myself to be from California, but I hail from from the Midwestern United States, via the East Coast. 
 
-My (first) name is Shang-Lin. I consider myself to be from California, but I hail from from the Midwestern United States, via the East Coast. I work as a software developer / Linux systems administrator, and my interests include languages (both natural and programming), dancing, tai chi chuan, and reading. In my spare time I enjoy taking [MOOCs](https://en.wikipedia.org/wiki/Massive_open_online_course). 
+I have a degree from [Caltech](http://caltech.edu) in Engineering and Applied Sciences. I would have majored in Computer Science if Caltech had offered it as a major back then. After surviving the infamous Caltech core curriculum, my coursework included computer graphics, French literature in translation, Spanish, Chinese, medieval history, political science, financial law, entrepreneurship, and ping pong.
 
-Despite failing kindergarten, I was good at school. I have a degree from [Caltech](http://caltech.edu) in Engineering and Applied Sciences. I would have majored in Computer Science if Caltech had offered it as a major back then. After surviving the infamous Caltech core curriculum, I took courses that included computation, algorithms, object-oriented programming, computer graphics, Spanish, French literature in translation, Chinese, medieval history,political science, financial law, and ping pong.
+My interests include languages (both natural and programming), dancing, tai chi chuan, and literature. I mainly dance West Coast swing and International-style ballroom and Latin. I've been doing Hao-style tai chi chuan since 2003. In my spare time, I take [MOOCs](https://en.wikipedia.org/wiki/Massive_open_online_course). 
 
-A mirror of my [original Caltech website](http://shangril.freeshell.org/its/) is still online.
+I've had an Internet presence of some sort since the late 1990's. My first website was for [my cat](http://web.archive.org/web/20050430080829/http://hometown.aol.com/ashino2020/). Later, I created the first iteration of my personal website when I was a student at Caltech. A [mirror](http://shangril.freeshell.org/its/) is still online.
