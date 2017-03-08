@@ -7,7 +7,7 @@ logo: Shang-Lin Chen - About
 
 **Who am I?**
 
-My (first) name is Shang-Lin. I consider myself to be from California, but I hail from from the Midwestern United States, via the East Coast. 
+My (first) name is Shang-Lin. I consider myself to be from California, but I hail from the Midwestern United States, via the East Coast. 
 
 I have a degree from [Caltech](http://caltech.edu) in Engineering and Applied Sciences. I would have majored in Computer Science if Caltech had offered it as a major back then. After surviving the infamous Caltech core curriculum, my coursework included computer graphics, French literature in translation, Spanish, Chinese, medieval history, political science, financial law, entrepreneurship, and ping pong.
 
