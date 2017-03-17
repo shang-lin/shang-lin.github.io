@@ -10,14 +10,18 @@ Although Python is an interpreted language, it is  compiled to bytecode that is 
 
 To compile Python into bytecode without executing, run ``python`` with the ``py_compile`` module:
 
-    python -m py_compile myprogram.py
+````bash
+python -m py_compile myprogram.py
+````
     
 If ``myprogram.py`` contains errors other than logical mistakes, you will catch them in this step.
 
 Compiling is not your only option. The ``pylint`` tool checks syntax, style, and more. To install and use``pylint``, run:
 
-    pip install pylint
-    pylint myprogram.py
+````bash
+pip install pylint
+pylint myprogram.py
+````
     
 **Perl**
 
@@ -31,5 +35,7 @@ to check your syntax without running the program.
 
 Bash is not a full-featured programming language like Python or Perl, but it is interpreted and error-prone. Call bash with ``-n`` flag on your script to check its syntax without running it:
 
-    bash -n mybashscript.bash
+````bash
+bash -n mybashscript.bash
+````
 
