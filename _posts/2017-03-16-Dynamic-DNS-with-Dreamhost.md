@@ -14,7 +14,7 @@ Before we get started, you'll need a domain name with its DNS hosted by Dreamhos
 
 Now, let's dive into the code. First, import the modules we'll need and define our API key:
 
-```python
+{% highlight python %}
 import requests
 import uuid
 import os
@@ -26,7 +26,7 @@ import time
 API_KEY = 'put_your_api_key_here'
 DREAMHOST_URL = 'https://api.dreamhost.com'
 IP_URL = 'https://ipinfo.io'
-```
+{% endhighlight %}
 
 For maintainability and reusability, we'll divide our code into functions. One of the required tasks is finding out our current IP address. An easy way to do this is to get our IP address from a web service using the `requests` library. We'll be using [IPInfo](https://ipinfo.io), which returns a JSON document containing your IP address.
 
