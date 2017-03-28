@@ -24,21 +24,17 @@ import logging
 import time
 
 API_KEY = 'put_your_api_key_here'
+DREAMHOST_URL = 'https://api.dreamhost.com'
+IP_URL = 'https://ipinfo.io'
 ```
 
-For maintainability and reusability, we'll divide our code into functions. One of the required tasks is finding out our current IP address. An easy way to do this is to get our IP address from a web service using the `requests` library.
+For maintainability and reusability, we'll divide our code into functions. One of the required tasks is finding out our current IP address. An easy way to do this is to get our IP address from a web service using the `requests` library. We'll be using [IPInfo](https://ipinfo.io), which returns a JSON document containing your IP address.
 
 ```python
 def get_ip():
-    response = requests.get('https://ipinfo.io')
+    response = requests.get(IP_URL)
     ip = response.json()['ip']
     return ip
-```
-
-When accessed through curl or the `requests` library, [IPInfo](https://ipinfo.io) returns a JSON file containing the IP address in the 'ip' field:
-
-```
-{ 'ip': 'xxx.xxx.xxx', ... }
 ```
 
 We'll also need a function to send commands to the Dreamhost API.
@@ -118,6 +114,7 @@ if __name__ == "__main__":
 
 We call `get_ip()` to get our current home IP, and we call `get_dns_ip()` to get the IP in our DNS record. We compare the two IP addresses. If they are not the same, we call `update_ip()` to update the DNS record. Now, all that's left is to put it in a cron job on a Raspberry Pi or any other server you run at home, and you'll be running your own dynamic DNS service.
 
+My full code, which uses configuration files to store global constants, is available on [Github](https://github.com/shang-lin/dyndream). 
 
 
 
