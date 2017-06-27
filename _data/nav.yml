@@ -1,12 +1,15 @@
 - title: "Home"
   url: "/"
 
-- title: "Blog"
+- title: "Code"
+  url: "/projects/"
+  
+- title: "Words"
   url: "/blog/"
 
-- title: "Projects"
-  url: "/projects/"
-
+- title: "More Words"
+  url: "/writing/"
+  
 - title: "Dance"
   url: "/dance/"
 
