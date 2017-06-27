@@ -10,15 +10,15 @@
 
 <body>
 
-   <div id="main">
-     <div id="logo">{{page.logo}}</div>
-	{% include nav.html %}
-	<div class="content">
-	{{content}}
+  <div id="main">
+    <div id="logo">{{page.logo}}</div>
+	  {% include nav.html %}
+	  <div class="content">
+	    {{content}}
     </div>
-
+    {% include footer.html %}
   </div>
-
+  
   {% include analytics.html %}
 
 </body></html>
