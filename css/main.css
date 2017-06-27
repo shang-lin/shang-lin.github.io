@@ -56,6 +56,8 @@ ul#navbar {
 		overflow: hidden;
 }
 
+/* Navigation */
+
 ul#navbar li {
 		padding: 10px;
 		background: #cccccc;
@@ -107,4 +109,32 @@ a.post-link {
 a.post-link:hover {
     background-color: yellow;
 		color: #cc0000;
+}
+
+footer {
+  width: 100%;
+  text-align: left;
+}
+
+ul.social-media-list {
+  list-style-type: none;
+  width: 100%;
+  text-align: left;
+  padding-left: 0px;
+}
+
+ul.social-media-list li {
+  display: inline;
+  text-align: left;
+  padding: 0;
+}
+
+ul.social-media-list li a {
+  text-decoration: none;
+}
+
+img.social-media-icon {
+  height: 16px;
+  width: 16px;
+  border: 0;
 }
