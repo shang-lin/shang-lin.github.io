@@ -9,7 +9,7 @@ logo: Shang-Lin Chen
 
 I [blog]({{site.baseurl}}/blog/) here about programming, Linux, and other technical topics. I also write [code]({{site.baseurl}}/projects/) and other [stuff]({{site.baseurl}}/writing/).
  
-I keep a list of dance resources and LA-area dances on my [dance page]({{site.baseurl}}).
+I keep a list of dance resources and LA-area dances on my [dance page]({{site.baseurl}}/dance/).
 
 [Want to know more?]({{site.baseurl}}/about/)
 
