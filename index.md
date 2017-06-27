@@ -24,6 +24,4 @@ I keep a list of dance resources and LA-area dances on my [dance page]({{site.ba
 <!-- </ul> -->
 </table>
 <br>
-<div>
-<a href="https://www.linkedin.com/in/shanglinchen"><img src="images/In-2C-14px.png"></a>
-</div>
+
