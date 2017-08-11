@@ -5,7 +5,7 @@ title: Shang-Lin Chen - Official website
 logo: Shang-Lin Chen - Writing
 ---
 
-[Code Words]({{site.baseurl}}/blog/), a programming and technology blog<br><br>
+[Gear VR tutorials](https://gamedevacademy.org/author/shanglin_chen/) for [GameDev Academy](https://gamedevacademy.org)<br><br>
 [Et Cetera](http://shanglin.wordpress.com), my occasionally edited personal blog
 <h3>Older Writing</h3>
 <a href="http://www.its.caltech.edu/~schen/its/">Poetry and prose</a> from my college and high school years<br><br>
