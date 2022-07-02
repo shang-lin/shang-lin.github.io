@@ -1,3 +1,7 @@
+---
+title: Let's Encrypt On RHEL6
+---
+
 When you visit a web page, a malicious third party sniffing on your network could read everything you send. For this reason, websites that collect payment or identification information are supposed to use HTTPS, a protocol that encrypts web traffic. You might have noticed the lock icon and the "https://" prefix when you visit a website that uses HTTPS. 
 
 HTTPS is now recommended even for websites that do not ask for your credit card. This year, Google will begin marking non-HTTPS sites as insecure, starting with sites that collect login or credit card information, but eventually expanding to all websites. What does this mean for you? If you run a website and don't implement HTTP, your search rankings could fall.

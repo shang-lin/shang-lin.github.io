@@ -1,3 +1,7 @@
+---
+title: Dynamic DNS With Dreamhost
+---
+
 Most home ISP's assign you a dynamic IP address that changes periodically. So, what do you do if you want to run a server at home and access it remotely, but don't know your IP address? If you already own a domain name and an account with a hosting provider that provides an API and DNS services, you can create your own dynamic DNS solution that you can automate on a Raspberry Pi. This article will show you how with a [Dreamhost](https://www.dreamhost.com/r.cgi?201755) account and Python. (Disclaimer: Dreamhost is the provider I use, and the link is a referral link.)
 
 [Dreamhost](https://www.dreamhost.com/r.cgi?201755) provides an [API](https://api.dreamhost.com) that can create, remove, and edit DNS records. Our application will use the API to update the A record of a domain with your home's IP address. Let's take a look at the API's [DNS functions](https://help.dreamhost.com/hc/en-us/articles/217555707-DNS-API-commands):
