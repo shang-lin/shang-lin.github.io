@@ -19,7 +19,7 @@ I keep a list of dance resources and LA-area dances on my [dance page]({{site.ba
 {% for post in site.posts limit:3 %}
 <!-- <li><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>&nbsp;
 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>&nbsp;</li> -->
-<tr><td>{{ post.date | date: "%b %-d, %Y" }}</td><td><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></td></tr>
+<tr><td class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</td><td><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></td></tr>
 {% endfor %}
 <!-- </ul> -->
 </table>
