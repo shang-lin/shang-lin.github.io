@@ -8,13 +8,14 @@ logo: Code Words
  
 <!-- <h1 class="page-heading">Posts</h1> -->
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>&nbsp;
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>&nbsp;      </li>
-    {% endfor %}
-  </ul>
+<table>
+  {% for post in site.posts %}
+  <!-- <li><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>&nbsp;
+  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>&nbsp;</li> -->
+  <tr><td class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</td><td><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></td></tr>
+  {% endfor %}
+  <!-- </ul> -->
+  </table>
 
   <!--  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
