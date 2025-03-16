@@ -18,7 +18,7 @@ Before we get started, you'll need a domain name with its DNS hosted by Dreamhos
 
 Now, let's dive into the code. First, import the modules we'll need and define our API key:
 
-{% highlight python %}
+{% highlight python linenos %}
 import requests
 import uuid
 import os
@@ -34,7 +34,7 @@ IP_URL = 'https://ipinfo.io'
 
 For maintainability and reusability, we'll divide our code into functions. One of the required tasks is finding out our current IP address. An easy way to do this is to get our IP address from a web service using the `requests` library. We'll be using [IPInfo](https://ipinfo.io), which returns a JSON document containing your IP address.
 
-{% highlight python %}
+{% highlight python linenos %}
 def get_ip():
     response = requests.get(IP_URL)
     ip = response.json()['ip']
@@ -43,7 +43,7 @@ def get_ip():
 
 We'll also need a function to send commands to the Dreamhost API.
 
-{% highlight python %}
+{% highlight python linenos %}
 def send_dreamhost_command(cmd, **kwargs):
     """
     Send a request to the Dreamhost API and return the response in JSON.
@@ -59,7 +59,7 @@ Each API requests requires a unique id. `uuid.uuid1()` generates  this ID.
 
 To obtain the IP stored in the current DNS A record, we'll need to call `send_dreamhost_command` with a `dns-list_records` command sent to the API. `dns-list_records` returns a JSON document that looks like:
 
-{% highlight json %}
+{% highlight none %}
 { 'data':
   [{'comment': '', 'account_id': 'your_account_id', 'zone': 'yourdomain.com', 'editable': '0', 'value': '10.1.1.1', 'record': 'yourdomain.com', 'type': 'A' }]
 }
@@ -68,7 +68,7 @@ To obtain the IP stored in the current DNS A record, we'll need to call `send_dr
 Each DNS record will be a JSON subdocument in the data array. We will find the record in this array that lists the IP for the domain we're using for dynamic DNS.
 
 
-{% highlight python %}
+{% highlight python linenos %}
 def get_dns_ip():
     """
     Retrieves the current IP of DYNAMIC_URL from DNS.
@@ -84,7 +84,7 @@ def get_dns_ip():
 
 If the IP address returned by `get_dns_ip()` does not match the IP address returned by `get_ip()`, we'll also to update the DNS record by removing the old record and adding a new A record. The function `update_ip(old_ip, new_ip)` does this by sending the API commands `dns-remove_record` followed by `dns-add_record`.
 
-{% highlight python %}
+{% highlight python linenos %}
 def update_ip(old_ip, new_ip):
     """
     Sets the A record of DYNAMIC_URL to the current IP.
@@ -102,7 +102,7 @@ def update_ip(old_ip, new_ip):
 
 Finally, let's write the logic that will connect these functions:
 
-{% highlight python %}
+{% highlight python linenos %}
 def main():
     ip = get_ip()
     old_ip = get_dns_ip()
