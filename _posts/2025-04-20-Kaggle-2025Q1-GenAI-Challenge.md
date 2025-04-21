@@ -68,7 +68,7 @@ class GeminiEmbeddingFunction(EmbeddingFunction):
 
 The ChromaDB collection is created with this embedding function:
 
-{% highlight python %}
+{% highlight python linenos %}
 # Create an instance of GeminiEmbeddingFunction with te text-embedding-004 model.
 embed_fn = GeminiEmbeddingFunction(client, "models/text-embedding-004")
 # ...
@@ -77,7 +77,7 @@ db = chroma_client.get_or_create_collection(name=db_name, embedding_function=emb
 
 The document chunks are loaded in batches to not exceed ChromaDB's API limits:
 
-{% highlight python %}
+{% highlight python linenos %}
     # Load up to batch_size documents at a time.
     while ndocs > batch_size:
         db.add(documents=docs[start:start+batch_size], ids=[str(i) for i in range(start, start+batch_size)])
