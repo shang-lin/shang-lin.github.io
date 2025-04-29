@@ -1,4 +1,4 @@
-Last week, I finally upgraded my workstation from Ubuntu 20.04 to Ubuntu 22.04. Initially, I followed the steps at [https://ubuntu.com/tutorials/upgrading-ubuntu-desktop](https://ubuntu.com/tutorials/upgrading-ubuntu-desktop). but I got the following
+Last week, I finally upgraded my workstation from Ubuntu 20.04 to Ubuntu 22.04. Ubuntu 20.04 is end-of-life this month. Initially, I followed the steps at [https://ubuntu.com/tutorials/upgrading-ubuntu-desktop](https://ubuntu.com/tutorials/upgrading-ubuntu-desktop). but I got the following
 errors in `/var/log/dist-upgrade/main.log`:
 
 ```
@@ -9,3 +9,11 @@ errors in `/var/log/dist-upgrade/main.log`:
 2025-04-22 11:31:35,590 ERROR Dist-upgrade failed: 'The package 'update-manager' is marked for removal but it is in the removal deny list.'
 2025-04-22 11:31:35,616 DEBUG abort called
 ```
+
+## tl;dr
+
+Remove conflicting Python 3 packages, if any, and run `sudo do-release-upgrade -f DistUpgradeViewText`. To fix audio, install `sudo apt install linux-modules-extra-$(uname -r)`. Installing v4l-utils and cheese and running `v4l2-ctl --list-devices` and `sudo cheese` somehow fixed the webcam.
+
+## References
+[https://askubuntu.com/questions/1423435/ubuntu-22-04-sound-card-exists-but-is-not-detected](https://askubuntu.com/questions/1423435/ubuntu-22-04-sound-card-exists-but-is-not-detected)
+
